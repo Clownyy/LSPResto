@@ -44,6 +44,10 @@ class Transaction_m extends CI_Model {
 		$query = $this->db->get();
 		return $query;
 	}
+	public function getOrder()
+	{
+		$this->db->select('order.*,')
+	}
 	public function jumlahCarts()
 	{
 		$this->db->select_sum('sub_total');

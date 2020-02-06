@@ -21,9 +21,9 @@
 						<thead>
 							<tr>
 								<th>No</th>
-								<th>ID Order</th>
+								<th>Barcode</th>
 								<th>Tanggal</th>
-								<th>Pelanggan</th>
+								<th>Pemesan</th>
 								<th>Keterangan</th>
 								<th>Status Order</th>
 							</tr>

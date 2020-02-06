@@ -12,8 +12,7 @@ class Transaction extends CI_Controller {
 
 	public function index()
 	{
-		$data['product'] = $this->item_m->get();
-		$data['carts'] = $this->transaction_m->getCarts();
+		$data['order'] = $this->transaction_m->getOrder();
 		$data['totalCarts'] = $this->transaction_m->jumlahCarts();
 		$this->template->load('template', 'transaction/transaction/transaction_data', $data);
 	}
